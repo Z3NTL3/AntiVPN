@@ -25,3 +25,6 @@ ip3 and so on...
 
 # Credits
 ``Z3NTL3``
+
+# README
+It's strictly offered to change the APIKEY to your own APIKEY for best performance.
