@@ -88,5 +88,6 @@ if __name__ == '__main__':
     '''
     By Z3NTL3 - SavageDevs.net
     '''
-    asyncio.run(Start())
+    loop = asyncio.get_event_loop()
+    loop.run_until_complete(Start())
 
