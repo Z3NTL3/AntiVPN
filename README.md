@@ -1,5 +1,5 @@
 # Anti VPN
-![thumbnail-logo](https://raw.githubusercontent.com/Z3NTL3/AntiVPN/main/antivpn.png | width=190)
+![](https://raw.githubusercontent.com/Z3NTL3/AntiVPN/main/antivpn.png | width=190)
 A fast asynchronous VPN & Proxy Detector. Reinforced with HTTP VERSION 2.
 <br><br>
 🌪️ It uses the http-client module ``HTTPX``: A next generation http client.
