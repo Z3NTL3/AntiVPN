@@ -1,5 +1,5 @@
 # Anti VPN
-![antivpn](https://user-images.githubusercontent.com/48758770/160456478-dfc71a1e-5b9c-4d40-a60f-1b90034cfc62.png | width=400px)
+![antivpn](https://user-images.githubusercontent.com/48758770/160456478-dfc71a1e-5b9c-4d40-a60f-1b90034cfc62.png)
 
 A fast asynchronous VPN & Proxy Detector. Reinforced with HTTP VERSION 2.
 <br><br>
