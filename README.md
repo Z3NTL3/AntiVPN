@@ -16,3 +16,9 @@ pip install httpx[http2]
 ```
 python3 anti-vpn.py list.txt
 ```
+list.txt should contain the IPs list you want to scan. Be sure every IP is formatted under newlines. For example:
+```
+ip1
+ip2
+ip3 and so on...
+```
