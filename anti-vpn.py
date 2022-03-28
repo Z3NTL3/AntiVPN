@@ -47,7 +47,7 @@ async def Lookup(ip):
             print(f"\033[38;5;206m{iplist}\033[38;5;205m : \033[32mReal IP \033[0m- \033[38;5;206mHTTP \033[38;5;207mVERSION: \033[38;5;219m{httpver}\033[0m")
             reals += 1
         else:
-            print(f"\033[38;5;206m{iplist} : Is a Proxy/VPN \033[0m- \033[38;5;206mHTTP \033[38;5;207mVERSION: \033[38;5;219m{httpver}\033[0m\n")
+            print(f"\033[38;5;206m{iplist} : Is a Proxy/VPN \033[0m- \033[38;5;206mHTTP \033[38;5;207mVERSION: \033[38;5;219m{httpver}\033[0m")
             with open("detections.txt",'a+')as f:
                 f.write(f"{iplist} : Is a Proxy/VPN HTTP VERSION:{httpver}\n")
                 proxies += 1
