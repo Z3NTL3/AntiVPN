@@ -1,5 +1,7 @@
 # Anti VPN
-A fast asynchronous VPN & Proxy Detector. Reinforced with HTTP VERSION 2. It uses thehttp-client module ``HTTPX``: A next generation http client.
+A fast asynchronous VPN & Proxy Detector. Reinforced with HTTP VERSION 2.
+<br><br>
+🌪️ It uses thehttp-client module ``HTTPX``: A next generation http client.
 
 
 # Requirements
