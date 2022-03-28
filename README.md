@@ -7,7 +7,7 @@ A fast asynchronous VPN & Proxy Detector. Reinforced with HTTP VERSION 2.
 # Requirements
 ``httpx``
 ``httpx[http2]``
-
+``python 3.7 or higher``
 # Installation
 ``pip install -r requirements`` or
 ```
