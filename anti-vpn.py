@@ -64,13 +64,13 @@ def List(list):
         sys.exit(f'\033[31m{E}\033[0m')
 
 def Avoid():
-    LOGO = """
+    LOGO = f"""
 \033[38;5;206m╔═╗╔╗╔╔╦╗╦  ╦  ╦╔═╗╔╗╔
 \033[38;5;207m╠═╣║║║ ║ ║  ╚╗╔╝╠═╝║║║
 \033[38;5;219m╩ ╩╝╚╝ ╩ ╩   ╚╝ ╩  ╝╚╝
 \033[38;5;206mby Z\033[38;5;207m3NT\033[38;5;219mL3.
 \033[38;5;206mUsage:
-\033[38;5;207mpython anti.py ip\033[0m
+\033[38;5;207mpython {__file__} ip\033[0m
 """ 
     print(LOGO)
     if os.path.abspath(f'{sys.argv[1]}'):
@@ -90,4 +90,3 @@ if __name__ == '__main__':
     '''
     loop = asyncio.get_event_loop()
     loop.run_until_complete(Start())
-
