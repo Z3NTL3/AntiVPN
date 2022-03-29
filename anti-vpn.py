@@ -70,7 +70,7 @@ def Avoid():
 \033[38;5;219m╩ ╩╝╚╝ ╩ ╩   ╚╝ ╩  ╝╚╝
 \033[38;5;206mby Z\033[38;5;207m3NT\033[38;5;219mL3.
 \033[38;5;206mUsage:
-\033[38;5;207mpython {__file__} ip\033[0m
+\033[38;5;207mpython {__file__} <file.txt>\033[0m
 """ 
     print(LOGO)
     if os.path.abspath(f'{sys.argv[1]}'):
