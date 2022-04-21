@@ -46,6 +46,8 @@ async def Lookup(ip):
         if query['proxy'] == "no":
             print(f"\033[38;5;206m{iplist}\033[38;5;205m : \033[32mReal IP \033[0m- \033[38;5;206mHTTP \033[38;5;207mVERSION: \033[38;5;219m{httpver}\033[0m")
             reals += 1
+            with open("reals.txt",'a+')as f:
+                f.write(f"{iplist} : Is a REAL IP HTTP VERSION:{httpver}\n")
         else:
             print(f"\033[38;5;206m{iplist} : \033[31mIs a Proxy/VPN \033[0m- \033[38;5;206mHTTP \033[38;5;207mVERSION: \033[38;5;219m{httpver}\033[0m")
             with open("detections.txt",'a+')as f:
